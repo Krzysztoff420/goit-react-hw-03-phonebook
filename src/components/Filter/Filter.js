@@ -18,7 +18,7 @@ export class Filter extends Component {
           type="text"
           name="filter"
           onInput={this.handleInputChange}
-        ></input>
+        />
       </label>
     );
   }

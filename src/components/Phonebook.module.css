@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+.main {
+height: 100vh;
+          padding: 0px 50px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          text-align: left;
+          font-size: 40;
+          color: #010101;
+}
+
 /* .form {
   border: 1px solid black;
   display: flex;

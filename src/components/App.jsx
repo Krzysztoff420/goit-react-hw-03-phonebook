@@ -4,7 +4,7 @@ import { ContactForm } from './ContactForm/ContactForm';
 import { Filter } from './Filter/Filter';
 import { ContactList } from './ContactList/ContactList';
 import css from './Phonebook.module.css';
-// import PropTypes from 'prop-types';
+
 
 export class App extends Component {
   state = {
@@ -66,19 +66,7 @@ export class App extends Component {
     );
 
     return (
-      <div
-        style={{
-          height: '100vh',
-          padding: '0px 50px',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'flex-start',
-          textAlign: 'left',
-          fontSize: 40,
-          color: '#010101',
-        }}
-      >
+      <div className={css.main}      >
         <h1 className={css.header}>Phonebook</h1>
         <ContactForm myContacts={contacts} onFormSubmit={this.handleSubmit} />
         <h2 className={css.header}>Contacts</h2>
